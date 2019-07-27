@@ -60,7 +60,7 @@ h2 {
 h1 {
     font-family: 'Teko', sans-serif;
     font-size: 3rem;
-    margin-top: 60px;
+    margin-top: 40px;
 }
  
 .print {
@@ -73,13 +73,20 @@ h1 {
 #print-icon {
     height: 20px;
 }
- 
+
 .sub-head {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     width: 900px;
+    margin-top: -60px;
 }
 
+.recipe {
+    color: grey;
+    font-size: 1.25rem;
+    text-indent: 50px;
+ }
 
 .ingredient-checklist {
     background-image: url("./img/list-bg.png");
